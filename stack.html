@@ -1,0 +1,249 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Queen's Fuel Cell Team</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+ <!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+ <!--start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+<!-- webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400italic,600italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!-- webfonts-->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+	<!--//End-top-nav-script-->
+</head>
+<body>
+<!-- header -->
+	<div class="what">
+		<div class="header">
+			<div class="container">
+			<!-- logo -->
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.png" title="QFCT" /><br />
+							<span>Building Tomorrow</span></a>
+					</div>
+			<!-- /logo -->
+				<!-- top-nav -->
+				<div class="top-nav">
+					<span class="menu"> </span>
+						<ul>
+							<li><a href="index.html">About us</a></li>
+							<li class="active"><a href="what.html"> What we do</a></li>
+							<li><a href="donate.html">  Donate </a></li>
+							<li><a href="blog.html"> Blog</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+								<div class="clearfix"> </div>
+						</ul>
+				</div>
+		<!-- start search-->
+				   
+					<!-- //search-scripts -->
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- script-for-nav -->
+				<script>
+					$(document).ready(function(){
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(300);
+						});
+					});
+				</script>
+		<!-- script-for-nav -->
+		<!-- /top-nav -->
+			<div class="clearfix"> </div>
+		</div>
+<!-- /header -->
+<!--/start-services-->
+			 
+               <figure>
+		      <img src="images/exec.jpg" width="100%" text="The snowmobily" /> 
+              <div class="banner">
+                <div class="slider-caption">
+                    <h2>The Stack Team</h2>
+                </div>
+             </div>
+               </figure>
+	
+    <div class="what-section">
+	<div class="container">
+	<h1> The Stack Team </h1>
+	<br>
+	<br>
+	<p>The Stack team is focusing on two major projects this year: the design of a hydrogen transmission system for our Shell Eco-Marathon competition vehicle, as well as the design and construction of our very own PEM fuel cell. The Eco-Vehicle project requires coordinating with the Mech and Elec teams to safely and efficiently deliver hydrogen to our PEM fuel cell, which is powering the vehicle. This proejct is also a great opportunity for team members to design a system from the ground up; from pen and paper design to physical installation and testing. We are planning to enter this vehicle into Shell's Eco-Marathon in April 2016 in Detroit.
+To build our own PEM fuel cell, the Stack team is utilizing a combination of custom and standardized components, together with expert advice. The goal of this project is to learn more about what goes into fuel cell construction and to eventually test the efficiency of our custom stack and try and improve it. We are still planning the design of our stack and acquiring parts but we hope to have an operational fuel cell soon!</p>
+	<br>
+	<br>
+	</div>
+    </div>    
+<!--/start-stories-->
+
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+$(function () {
+	
+	var filterList = {
+	
+		init: function () {
+		
+			// MixItUp plugin
+		// http://mixitup.io
+		$('#portfoliolist').mixitup({
+			targetSelector: '.portfolio',
+			filterSelector: '.filter',
+			effects: ['fade'],
+			easing: 'snap',
+			// call the hover effect
+			onMixEnd: filterList.hoverEffect()
+		});				
+	
+	},
+	
+	hoverEffect: function () {
+	
+		// Simple parallax effect
+		$('#portfoliolist .portfolio').hover(
+			function () {
+				$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+				$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+			},
+			function () {
+				$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+				$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+			}		
+		);				
+	
+	}
+
+};
+
+// Run the show!
+	filterList.init();
+	
+});	
+</script>
+<!--strat-image-cursuals-->
+                    <div class="scroll-slider">
+                  	<div class="container"> 											 
+							<div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul class="flexiselDemo3 nbs-flexisel-ul" style="left: -253.6px; display: block;">					    					    					       
+							<li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/d1.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/d2.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/d3.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s1.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s2.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s3.png"></li><li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s4.jpg"></li></ul><div class="nbs-flexisel-nav-left" style="top: 21.5px;"></div><div class="nbs-flexisel-nav-right" style="top: 21.5px;"></div></div></div> 
+							<div class="clear"> </div>      
+						  <!--strat-image-cursuals-->
+								<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+								<!--End-image-cursuals-->
+								<script type="text/javascript">
+								$(window).load(function() {
+								    $(".flexiselDemo3").flexisel({
+								        visibleItems: 5,
+								        animationSpeed: 1000,
+								        autoPlay: true,
+								        autoPlaySpeed: 3000,            
+								        pauseOnHover: true,
+								        enableResponsiveBreakpoints: true,
+								        responsiveBreakpoints: { 
+								            portrait: { 
+								                changePoint:480,
+								                visibleItems: 1
+								            }, 
+								            landscape: { 
+								                changePoint:640,
+								                visibleItems: 2
+								            },
+								            tablet: { 
+								                changePoint:768,
+								                visibleItems: 3
+								            }
+								        }
+								    });
+								});
+								</script>
+				  			</div>				
+						</div>
+
+<!--/start-footer-->
+				<div class="footer">
+						<div class="container">
+
+						<div class="footer-grids">
+							<div class="col-md-4 footer-grid-icons">
+								<h3>Follow Us:</h3>
+										<ul>
+											<li><a class="twitter" href="https://twitter.com/fuelcellteam"><span> </span></a></li>
+											<li><a class="fb" href="https://www.facebook.com/pages/Queens-Fuel-Cell-Team/221557297860995"><span> </span></a></li>
+											<li><a class="in" href="https://www.instagram.com/qfct_/"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+							</div>
+							<div class="col-md-4 footer-grid-text">
+								
+							</div>
+							<div class="col-md-4 copy-right">
+								<p> Website brought to you in part by &nbsp; Jack Heysel</p>
+							</div>
+							<div class="clearfix"> </div>	
+						</div>							
+					</div>
+				</div>
+					<!--//End-footer-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</body>
+</html>
